@@ -524,6 +524,42 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnl
 
+PRODUCT_PACKAGES += \
+    libandroid \
+    libandroid_runtime \
+    libdrm \
+    libion \
+    vendor.display.config@1.7
+
+PRODUCT_PACKAGES += \
+    libmedia_omx \
+    android.frameworks.displayservice@1.0 \
+    drmserver \
+    mediadrmserver \
+    mediaextractor \
+    miniafservice
+
+PRODUCT_PACKAGES += \
+    sensorservice \
+    libhfd_api \
+    vintf
+
+PRODUCT_PACKAGES += \
+    libmedia_compat_layer \
+    libsf_compat_layer \
+    libui_compat_layer
+
+# Droidmedia
+PRODUCT_PACKAGES += \
+    libdroidmedia \
+    minimediaservice \
+    minisfservice
+
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.1-service.stub \
+    libbiometry_fp_api \
+    libubuntu_application_api \
+    fake_crypt
 
 # Wifi tether
 PRODUCT_PROPERTY_OVERRIDES += \
