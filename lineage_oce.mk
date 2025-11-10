@@ -20,7 +20,7 @@ $(call inherit-product, device/htc/oce/device.mk)
 # $(call inherit-product, vendor/vndk/vndk.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/halium.mk)
+$(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/halium.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 $(call inherit-product-if-exists, frameworks/base/data/fonts/fonts.mk)
 # Inherit some common RR stuff.
