@@ -541,7 +541,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     sensorservice \
-    libhfd_api \
     vintf
 
 PRODUCT_PACKAGES += \
@@ -558,7 +557,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1-service.stub \
     libbiometry_fp_api \
-    libubuntu_application_api \
     fake_crypt
 
 # Wifi tether
